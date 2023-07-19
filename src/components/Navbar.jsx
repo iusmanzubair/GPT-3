@@ -5,7 +5,7 @@ import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 const Menu = () => (
   <>
     <p>
-      <a href="#home">Home</a>
+      <a href="/">Home</a>
     </p>
     <p>
       <a href="#wgpt3">What Is Gpt3?</a>
@@ -28,8 +28,8 @@ const Navbar = () => {
   return (
     <div className="container mx-auto px-6 py-10 flex justify-between items-center">
       <div>
-        <div className="">
-          <img src={logo} alt="logo" className="w-[70px] cursor-pointer" />
+        <div>
+          <a href="/"><img src={logo} alt="logo" className="w-[70px] cursor-pointer" /></a>
         </div>
       </div>
       <div className="hidden w-1/2 text-white font-primary font-[600] lg:flex flex-row justify-around">

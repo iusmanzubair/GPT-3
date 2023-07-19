@@ -15,33 +15,38 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row md:items-start justify-evenly w-full pt-24 pb-16 gap-16 text-left px-24 md:px-0">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-8 lg:gap-x-0 w-full pt-24 pb-16 pl-10 sm:pl-16 md:pl-[10rem] lg:pr-16">
         <div>
           <h1 className="text-white text-3xl font-[700] pb-4">GPT-3</h1>
-          <p className="text-white font-primary text-sm">Usman Zubair Inc.<br/> All Rights Reserved</p>
+          <p className="text-white font-primary text-sm">
+            Usman Zubair Inc.
+            <br /> All Rights Reserved
+          </p>
         </div>
         <div className="text-white flex flex-col gap-10 text-sm">
           <h1 className="font-[600] text-lg">Links</h1>
-          <p>Overons</p>
-          <p>Social Media</p>
-          <p>Counters</p>
-          <p>Contact</p>
+          <p className="cursor-pointer">Overons</p>
+          <p className="cursor-pointer">Social Media</p>
+          <p className="cursor-pointer">Counters</p>
+          <p className="cursor-pointer">Contact</p>
         </div>
         <div className="text-white flex flex-col gap-10 text-sm">
           <h1 className="font-[600] text-lg">Company</h1>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
-          <p>Contact</p>
+          <p className="cursor-pointer">Terms & Conditions</p>
+          <p className="cursor-pointer">Privacy Policy</p>
+          <p className="cursor-pointer">Contact</p>
         </div>
         <div className="text-white flex flex-col gap-10 text-sm">
           <h1 className="font-[600] text-lg">Get in touch</h1>
-          <p>Usman Zubair</p>
-          <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p className="cursor-pointer">Usman Zubair</p>
+          <p className="cursor-pointer">085-132567</p>
+          <p className="cursor-pointer">info@payme.net</p>
         </div>
       </div>
       <div>
-        <p className="text-white mb-4 font-primary text-sm">© 2021 GPT-3. All rights reserved.</p>
+        <p className="text-white mb-4 font-primary text-sm">
+          © 2021 GPT-3. All rights reserved.
+        </p>
       </div>
     </div>
   );

@@ -10,12 +10,12 @@ const Cta = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center">
-            <h1 className="font-[900] text-[24px] font-primary mb-6 md:mb-0 leading-8 sm:leading-normal">
-              Register today & start exploring the endless possibilities.
-            </h1>
-            <button className="text-white bg-black px-10 py-4 rounded-full min-w-[180px]">
-              Get Started
-            </button>
+          <h1 className="font-[900] text-[24px] font-primary mb-6 md:mb-0 leading-8 sm:leading-normal">
+            Register today & start exploring the endless possibilities.
+          </h1>
+          <button className="text-white bg-black px-10 py-4 rounded-full min-w-[180px]">
+            Get Started
+          </button>
         </div>
       </div>
     </div>

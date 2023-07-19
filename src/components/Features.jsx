@@ -20,7 +20,10 @@ const featuresData = [
 ];
 const Features = () => {
   return (
-    <div className="container mx-auto px-6 md:px-0 my-36 flex flex-col md:flex-row items-start justify-center" id="features">
+    <div
+      className="container mx-auto px-6 md:px-0 my-36 flex flex-col md:flex-row items-start justify-center"
+      id="features"
+    >
       <div className="max-w-[300px] lg:max-w-[450px] py-5 md:px-16 lg:mr-24">
         <h1 className="text-2xl textgradient font-[700] leading-8 mb-12 md:mb-16">
           The Future is Now and You Just Need To Realize It. Step into Future
