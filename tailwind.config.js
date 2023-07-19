@@ -10,7 +10,7 @@ module.exports = {
       },
       colors: {
         bgColor: '#040C18',
-        footerColor: '#031B34',
+        footerColor: '#042C54',
         blogColor: '#042c54',
         textColor: '#81AFDD',
         subtextColor: '#FF8A71'

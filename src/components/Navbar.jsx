@@ -26,10 +26,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="container mx-auto px-4 sm:px-0 py-10 flex justify-between items-center">
+    <div className="container mx-auto px-6 py-10 flex justify-between items-center">
       <div>
         <div className="">
-          <img src={logo} alt="logo" className="w-[70px]" />
+          <img src={logo} alt="logo" className="w-[70px] cursor-pointer" />
         </div>
       </div>
       <div className="hidden w-1/2 text-white font-primary font-[600] lg:flex flex-row justify-around">
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="flex gap-4 items-center">
         <div className="hidden text-white sm:flex gap-5 font-[600]">
           <button className="outline-none">Sign in</button>
-          <button className="bg-orange-600 px-5 py-2 outline-none">
+          <button className="bg-orange-600 px-5 py-2 outline-none rounded-md">
             Sign up
           </button>
         </div>
